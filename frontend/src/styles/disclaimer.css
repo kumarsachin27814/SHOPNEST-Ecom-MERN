@@ -1,0 +1,106 @@
+.disclaimer-page {
+  min-height: 100vh;
+  background: #09090b;
+  color: #fafafa;
+}
+
+.disclaimer-hero {
+  text-align: center;
+  padding: 90px 20px 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(249, 115, 22, 0.15),
+    transparent
+  );
+}
+
+.disclaimer-hero h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.disclaimer-hero p {
+  max-width: 760px;
+  margin: auto;
+  color: #a1a1aa;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.disclaimer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.disclaimer-card {
+  background: #18181b;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 18px;
+  padding: 35px;
+  margin-bottom: 30px;
+  transition: 0.3s ease;
+}
+
+.disclaimer-card:hover {
+  transform: translateY(-5px);
+  border-color: #f97316;
+  box-shadow: 0 10px 35px rgba(249,115,22,0.15);
+}
+
+.disclaimer-card h2 {
+  color: #f97316;
+  margin-bottom: 18px;
+}
+
+.disclaimer-card p {
+  color: #d4d4d8;
+  line-height: 1.8;
+}
+
+.disclaimer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.info-card {
+  background: #18181b;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 18px;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  border-color: #f97316;
+  box-shadow: 0 10px 30px rgba(249,115,22,0.15);
+}
+
+.info-card h3 {
+  color: #f97316;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  color: #d4d4d8;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .disclaimer-hero {
+    padding: 70px 20px 50px;
+  }
+
+  .disclaimer-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .disclaimer-card,
+  .info-card {
+    padding: 24px;
+  }
+}
